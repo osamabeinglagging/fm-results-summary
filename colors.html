@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Color Showcase</title>
+<style>
+:root{
+/* Primary Colors */
+--clr-light-red: hsl(0, 100%, 67%);
+--clr-orangey-yellow: hsl(39, 100%, 56%);
+--clr-green-teal: hsl(166, 100%, 37%);
+--clr-cobalt-blue: hsl(234, 85%, 45%);
+
+/* Gradients */
+--clr-light-slate-blue: hsl(252, 100%, 67%);
+--clr-light-royal-blue: hsl(241, 81%, 54%);
+--clr-violet-blue: hsla(256, 72%, 46%, 1);
+--clr-persian-blue: hsla(241, 72%, 46%, 1);
+
+/* Neutral */
+--clr-white: hsl(0, 0%, 100%);
+--clr-pale-blue: hsl(221, 100%, 96%);
+--clr-light-lavender: hsl(241, 100%, 89%);
+--clr-dark-gray-blue: hsl(224, 30%, 27%);
+}
+  div{
+    display: inline-block;
+  }
+  .color-sample {
+    width: 200px;
+    height: 100px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bold;
+  }
+</style>
+</head>
+<body>
+  <div class="color-sample" style="background-color: var(--clr-light-red);">Light Red</div>
+  <div class="color-sample" style="background-color: var(--clr-orangey-yellow);">Orangey Yellow</div>
+  <div class="color-sample" style="background-color: var(--clr-green-teal);">Green Teal</div>
+  <div class="color-sample" style="background-color: var(--clr-cobalt-blue);">Cobalt Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-light-slate-blue);">Light Slate Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-light-royal-blue);">Light Royal Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-violet-blue);">Violet Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-persian-blue);">Persian Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-white);">White</div>
+  <div class="color-sample" style="background-color: var(--clr-pale-blue);">Pale Blue</div>
+  <div class="color-sample" style="background-color: var(--clr-light-lavender);">Light Lavender</div>
+  <div class="color-sample" style="background-color: var(--clr-dark-gray-blue); color: white;">Dark Gray Blue</div>
+</body>
+</html>
